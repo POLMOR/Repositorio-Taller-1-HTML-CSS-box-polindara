@@ -9,8 +9,7 @@ body { text-align: center;}
 /*! # busca medinate l e identificador id */
 #group-elements{ margin: 15px auto;text-align: left;width: 960px; }
 
-#header-title { background: #117c11; border: 1px solid #0c110f; display: block; margin: 10px auto; padding: 20px; text-align: center; -moz-border-radius: 20px / 10px; -webkit-border-radius: 20px / 10px; border-radius: 20px / 10px; -moz-box-shadow: rgb(150,150,150) 5px 5px 10px; -webkit-box-shadow: rgb(150,150,150) 5px 5px 10px; box-shadow: rgb(150,150,150) 5px 5px 10px; background: -webkit-linear-gradient(top, #FFFFFF, #006699); background: -moz-linear-gradient(top, #FFFFFF, #006699); } 
-#span-title { font: bold 36px verdana, sans-serif; }
+
 
 #span-title { font:bold 36px verdana, sans-serif; text-shadow: rgb(150, 72, 0) 10px 33px 5px; }
 
@@ -25,3 +24,9 @@ article {background: #bbffdd; border: 2px solid #000000; padding: 20px; margin-b
 article footer { text-align: right; } time { color: #000000; } 
 figcaption { font: italic 14px verdana, sans-serif; }
 
+#header-title { background: #117c11; border: 1px solid #0c110f; display: block; margin: 10px auto; padding: 20px; text-align: center; -moz-border-radius: 20px / 10px; -webkit-border-radius: 20px / 10px; border-radius: 20px / 10px; -moz-box-shadow: rgb(150,150,150) 5px 5px 10px; -webkit-box-shadow: rgb(150,150,150) 5px 5px 10px; box-shadow: rgb(150,150,150) 5px 5px 10px;
+    background: -webkit-radial-gradient(center,circle,#da1616 0%, #006699 200%);
+    background:     -moz-radial-gradient(center,circle,#da1616 0%, #006699 200%);
+     -moz-transform: scale(2);
+     -webkit-transform: scale(2); }
+    
