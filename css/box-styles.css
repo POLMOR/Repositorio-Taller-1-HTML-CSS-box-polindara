@@ -8,15 +8,26 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup{ displa
 body { text-align: center;}
 /*! # busca medinate l e identificador id */
 #group-elements{ margin: 15px auto;text-align: left;width: 960px; }
-#header-title{ background: #117c11; border: 1px solid #0c110f; padding: 20px; }
 
-#menu { background: #85d195; padding: 6px 15px; }
+
+
+#header-title { background: #117c11; border: 1px solid #0c110f; display: block; margin: 10px auto; padding: 20px; text-align: center; 
+    -moz-border-radius: 20px 10px 30px 50px; 
+    -webkit-border-radius: 20px 10px 30px 50px; 
+    border-radius: 20px 10px 30px 50px; 
+    -moz-box-shadow: rgb(10,150,150) 5px 5px; 
+    -webkit-box-shadow: rgb(150,150,0) 5px 5px; 
+    box-shadow: rgb(179, 59, 12) 10px 5px 10px inset;}
+#span-title { font:bold 36px verdana, sans-serif; }
+
+#menu { background: #58f071; padding: 6px 15px; }
 #menu li { display: inline-block; font: bold 16px verdana, sans-serif; list-style: none; padding: 6px; }
 
 #section-content { float: left; margin: 20px; width: 660px; }
-#aside-column { background: #CCCCCC; float: left; margin: 20px 0px; padding: 20px; width: 220px; }
+#aside-column { background: #9ebea0; float: left; margin: 20px 0px; padding: 20px; width: 220px; }
 #footer-foot{ clear: both; text-align: center; padding: 20px; border-top: 3px solid #1b9104;}
 
-article {background: #FFFBCC; border: 1px solid #999999; padding: 20px; margin-bottom: 15px; }
-article footer { text-align: right; } time { color: #999999; } 
+article {background: #bbffdd; border: 2px solid #000000; padding: 20px; margin-bottom: 15px; }
+article footer { text-align: right; } time { color: #000000; } 
 figcaption { font: italic 14px verdana, sans-serif; }
+
