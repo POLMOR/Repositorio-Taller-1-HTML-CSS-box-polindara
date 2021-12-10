@@ -12,3 +12,6 @@ body { text-align: center;}
 
 #menu { background: #85d195; padding: 6px 15px; }
 #menu li { display: inline-block; font: bold 16px verdana, sans-serif; list-style: none; padding: 6px; }
+
+#section-content { float: left; margin: 20px; width: 660px; }
+#aside-column { background: #CCCCCC; float: left; margin: 20px 0px; padding: 20px; width: 220px; }
