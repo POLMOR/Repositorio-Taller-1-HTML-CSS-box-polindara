@@ -6,4 +6,9 @@ h2 { font: bold 14px verdana, sans-serif; }
 header, section, footer, aside, nav, article, figure, figcaption, hgroup{ display: block; }
 /** text{aling alinea le texto dento del boby */
 body { text-align: center;}
+/*! # busca medinate l e identificador id */
 #group-elements{ margin: 15px auto;text-align: left;width: 960px; }
+#header-title{ background: #117c11; border: 1px solid #0c110f; padding: 20px; }
+
+#menu { background: #85d195; padding: 6px 15px; }
+#menu li { display: inline-block; font: bold 16px verdana, sans-serif; list-style: none; padding: 6px; }
