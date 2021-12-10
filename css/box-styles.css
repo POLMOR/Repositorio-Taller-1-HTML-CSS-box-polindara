@@ -9,16 +9,10 @@ body { text-align: center;}
 /*! # busca medinate l e identificador id */
 #group-elements{ margin: 15px auto;text-align: left;width: 960px; }
 
+#header-title { background: #117c11; border: 1px solid #0c110f; display: block; margin: 10px auto; padding: 20px; text-align: center; -moz-border-radius: 20px / 10px; -webkit-border-radius: 20px / 10px; border-radius: 20px / 10px; -moz-box-shadow: rgb(150,150,150) 5px 5px 10px; -webkit-box-shadow: rgb(150,150,150) 5px 5px 10px; box-shadow: rgb(150,150,150) 5px 5px 10px; background: -webkit-linear-gradient(top, #FFFFFF, #006699); background: -moz-linear-gradient(top, #FFFFFF, #006699); } 
+#span-title { font: bold 36px verdana, sans-serif; }
 
-
-#header-title { background: #117c11; border: 1px solid #0c110f; display: block; margin: 10px auto; padding: 20px; text-align: center; 
-    -moz-border-radius: 20px 10px 30px 50px; 
-    -webkit-border-radius: 20px 10px 30px 50px; 
-    border-radius: 20px 10px 30px 50px; 
-    -moz-box-shadow: rgb(10,150,150) 5px 5px; 
-    -webkit-box-shadow: rgb(150,150,0) 5px 5px; 
-    box-shadow: rgb(179, 59, 12) 10px 5px 10px inset;}
-#span-title { font:bold 36px verdana, sans-serif; }
+#span-title { font:bold 36px verdana, sans-serif; text-shadow: rgb(150, 72, 0) 10px 33px 5px; }
 
 #menu { background: #58f071; padding: 6px 15px; }
 #menu li { display: inline-block; font: bold 16px verdana, sans-serif; list-style: none; padding: 6px; }
